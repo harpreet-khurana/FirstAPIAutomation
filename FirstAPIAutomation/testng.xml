@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testing.testcases.TC1_PostRequest"/>
+      <class name="org.testing.testcases.TC3_getParticularRequest"/>
+      <class name="org.testing.testcases.TC6_getAllEmployess"/>
+      <class name="org.testing.testcases.TC8_PostEmployee"/>
+      <class name="org.testing.testcases.TC9_UpdateEmployee"/>
+      <class name="org.testing.testcases.TC7_getParticularEmployee"/>
+      <class name="org.testing.testcases.TC1_simplePost_Copy"/>
+      <class name="org.testing.testcases.TC3_getAllRequest"/>
+      <class name="org.testing.testcases.TC2_replaceVarPost"/>
+      <class name="org.testing.testcases.TC5_deleteRequest"/>
+      <class name="org.testing.testcases.TC4_updateRequest"/>
+      <class name="org.testing.testcases.TC3_getAllRequestUsingOrgJson"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
