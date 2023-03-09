@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-12T15:10:41 GMT" name="Suite" finished-at="2023-02-12T15:10:46 GMT" duration-ms="5283">
+  <suite started-at="2023-03-09T11:53:54 GMT" name="Default suite" finished-at="2023-03-09T11:53:54 GMT" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2023-02-12T15:10:41 GMT" name="Test" finished-at="2023-02-12T15:10:46 GMT" duration-ms="5283">
-      <class name="org.testing.testcases.TC5_deleteRequest">
-        <test-method signature="testCase5()[pri:0, instance:org.testing.testcases.TC5_deleteRequest@47af7f3d]" started-at="2023-02-12T15:10:46 GMT" name="testCase5" finished-at="2023-02-12T15:10:46 GMT" duration-ms="33" status="PASS">
+    <test started-at="2023-03-09T11:53:54 GMT" name="Default test" finished-at="2023-03-09T11:53:54 GMT" duration-ms="51">
+      <class name="org.testing.testcases.TC10_XmltoJson">
+        <test-method signature="testCase11()[pri:0, instance:org.testing.testcases.TC10_XmltoJson@8dbdac1]" started-at="2023-03-09T11:53:54 GMT" name="testCase11" finished-at="2023-03-09T11:53:54 GMT" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase5 -->
-      </class> <!-- org.testing.testcases.TC5_deleteRequest -->
-      <class name="org.testing.testcases.TC4_updateRequest">
-        <test-method signature="testCase4()[pri:0, instance:org.testing.testcases.TC4_updateRequest@7c729a55]" started-at="2023-02-12T15:10:46 GMT" name="testCase4" finished-at="2023-02-12T15:10:46 GMT" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase4 -->
-      </class> <!-- org.testing.testcases.TC4_updateRequest -->
-      <class name="org.testing.testcases.TC3_getParticularRequest">
-        <test-method signature="testCase3_2()[pri:0, instance:org.testing.testcases.TC3_getParticularRequest@8dbdac1]" started-at="2023-02-12T15:10:42 GMT" name="testCase3_2" finished-at="2023-02-12T15:10:42 GMT" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3_2 -->
-      </class> <!-- org.testing.testcases.TC3_getParticularRequest -->
-      <class name="org.testing.testcases.TC7_getParticularEmployee">
-        <test-method signature="testCase7()[pri:0, instance:org.testing.testcases.TC7_getParticularEmployee@6aba2b86]" started-at="2023-02-12T15:10:45 GMT" name="testCase7" finished-at="2023-02-12T15:10:46 GMT" duration-ms="653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase7 -->
-      </class> <!-- org.testing.testcases.TC7_getParticularEmployee -->
-      <class name="org.testing.testcases.TC8_PostEmployee">
-        <test-method signature="testCase8()[pri:0, instance:org.testing.testcases.TC8_PostEmployee@71809907]" started-at="2023-02-12T15:10:43 GMT" name="testCase8" finished-at="2023-02-12T15:10:44 GMT" duration-ms="947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase8 -->
-      </class> <!-- org.testing.testcases.TC8_PostEmployee -->
-      <class name="org.testing.testcases.TC2_replaceVarPost">
-        <test-method signature="testCase2()[pri:0, instance:org.testing.testcases.TC2_replaceVarPost@74e52303]" started-at="2023-02-12T15:10:46 GMT" name="testCase2" finished-at="2023-02-12T15:10:46 GMT" duration-ms="506" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-      </class> <!-- org.testing.testcases.TC2_replaceVarPost -->
-      <class name="org.testing.testcases.TC6_getAllEmployess">
-        <test-method signature="testCase6()[pri:0, instance:org.testing.testcases.TC6_getAllEmployess@6e20b53a]" started-at="2023-02-12T15:10:42 GMT" name="testCase6" finished-at="2023-02-12T15:10:43 GMT" duration-ms="893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase6 -->
-      </class> <!-- org.testing.testcases.TC6_getAllEmployess -->
-      <class name="org.testing.testcases.TC3_getAllRequest">
-        <test-method signature="testCase3()[pri:0, instance:org.testing.testcases.TC3_getAllRequest@158da8e]" started-at="2023-02-12T15:10:46 GMT" name="testCase3" finished-at="2023-02-12T15:10:46 GMT" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-      </class> <!-- org.testing.testcases.TC3_getAllRequest -->
-      <class name="org.testing.testcases.TC3_getAllRequestUsingOrgJson">
-        <test-method signature="testCase3_1()[pri:0, instance:org.testing.testcases.TC3_getAllRequestUsingOrgJson@3bb9a3ff]" started-at="2023-02-12T15:10:46 GMT" name="testCase3_1" finished-at="2023-02-12T15:10:46 GMT" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3_1 -->
-      </class> <!-- org.testing.testcases.TC3_getAllRequestUsingOrgJson -->
-      <class name="org.testing.testcases.TC9_UpdateEmployee">
-        <test-method signature="testCase9()[pri:0, instance:org.testing.testcases.TC9_UpdateEmployee@3ce1e309]" started-at="2023-02-12T15:10:44 GMT" name="testCase9" finished-at="2023-02-12T15:10:45 GMT" duration-ms="722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase9 -->
-      </class> <!-- org.testing.testcases.TC9_UpdateEmployee -->
-      <class name="org.testing.testcases.TC1_PostRequest">
-        <test-method signature="testCase1()[pri:0, instance:org.testing.testcases.TC1_PostRequest@14dd9eb7]" started-at="2023-02-12T15:10:41 GMT" name="testCase1" finished-at="2023-02-12T15:10:42 GMT" duration-ms="1261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-      </class> <!-- org.testing.testcases.TC1_PostRequest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testCase11 -->
+      </class> <!-- org.testing.testcases.TC10_XmltoJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
